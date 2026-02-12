@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Cursed;
+}
+
+button {
+    font-family: Cursed;
+    font-size: 14px;
+}
+
+#home, #guest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 24px;
+    margin-bottom: 10px;
+} 
+
+#pointHome, #pointGuest {
+    margin: 0 auto;
+    width: 100px;
+    height: 70px;
+    background-color: #080001;
+    border-radius: 5px; 
+    font-size:x-large;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Cursed;
+    color: #F94F6D;
+}
+
+#addPointsHome, #addPointsGuest {
+    color: #9AABD8;
+    font-family: Cursed;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 110px;
+    margin-top: 15px;
+}
+
+button {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
